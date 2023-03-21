@@ -1,0 +1,215 @@
+@page {
+	margin: 0.9cm;
+}
+body {
+	font-family:  "Franklin Gothic Book";
+	font-size: 11.8pt;
+}
+
+.row {
+	margin-top: 0;
+	padding-top: 0;
+}
+
+#footer {
+	position: fixed;
+	color: #ccc;
+	right: 0;
+	bottom: 0;
+	z-index: -100;
+}
+
+.mri-header {
+	border: 6px double #A3A5DC;
+	border-radius: 10px;
+	padding: 0 1.3ex;
+	margin: 0.5ex 0 0 0;
+	font-size: 200%;
+}
+
+.mri-colheader {
+	margin: 0.3ex 0.2ex;
+	font-size: 140%;
+}
+
+.col-left {
+	padding: 0.4ex 0.4ex 0.4ex 0;
+}
+
+.col-right {
+	padding: 0.4ex 0 0.4ex 0.4ex;
+}
+
+.col-section-container {
+	padding: 0.4ex 0;
+}
+
+
+.specialist {
+	background-color: #eefcff;
+	border: 5px double #A3A5DC;
+	border-radius: 7px;
+	padding: 0 2ex 0.8ex 2ex;
+}
+
+.gp {
+	background-color: #FFF7EB;
+	border: 5px double #A3A5DC;
+	border-radius: 7px;
+	padding: 0 2ex 0.8ex 2ex;
+}
+
+.nr {
+	background-color: #fff5f6;
+	border: 5px double #A3A5DC;
+	border-radius: 7px;
+	padding: 0 2ex 0.8ex 2ex;
+}
+
+.combos {
+	border: 5px double #A3A5DC;
+	border-radius: 7px;
+	padding: 0 2ex 0.8ex 2ex;
+}
+
+.combos > .item {
+	text-align: justify;
+}
+
+.combos > .item li {
+	text-align: left;
+}
+
+.item {
+	margin: 0.4ex 0;
+	padding: 0.6ex 0.8ex;
+	border: 1px solid #aaa;
+	border-radius: 6px;
+}
+
+.mc-item {
+	font-size: 110%;
+	font-weight: bold;
+	display: inline-block;
+	min-width: 8ex;
+	margin-left: 1ex;
+}
+
+.mc-descr {
+	font-size: 120%;
+}
+
+.mc-subdescr {
+	padding-left: 1ex;
+	padding-right: 1ex;
+}
+
+.vis-proc {
+	font-size: 110%;
+	font-weight: bold;
+	min-width: 8ex;
+	margin-left: 1ex;
+}
+
+.vis-item {
+	font-size: 110%;
+	font-weight: bold;
+	display: inline-block;
+	min-width: 8ex;
+	margin-left: 1ex;
+}
+
+.vis-descr {
+	font-size: 120%;
+}
+
+.inline-code {
+	font-weight: bold;
+}
+
+.inline-normal {
+	font-weight: normal;
+}
+
+.fa-icon {
+	text-indent: -1.9ex;
+	margin-left: 4.9ex;
+}
+.fa-icon > i:first-child {
+	margin-right: -0.9ex;
+}
+
+ul {
+	margin-bottom: 0;
+}
+
+.far {
+	margin-right: 0.5ex;
+	width: 1.2em;
+}
+
+.and {
+	list-style-type: none;
+	padding-left: 1ex;
+}
+.and > li {
+	text-indent: -6.1ex;
+	padding-left: 6.1ex;
+}
+.and > li:before {
+	list-style-type: none;
+	content: "AND •";
+	padding: 0.2ex 1.2ex 0.2ex 0.8ex;
+	font-size: 80%;
+}
+.and > li:first-child:before {
+	content: "•";
+	padding-left: 5.1ex;
+}
+
+.or {
+	list-style-type: none;
+	padding-left: 2ex;
+}
+.or > li {
+	text-indent: -5.1ex;
+	padding-left: 5.1ex;
+}
+.or > li:before {
+	list-style-type: none;
+	content: "OR •";
+	padding: 0.2ex 1.2ex 0.2ex 0.3ex;
+	padding-right: 1ex;
+	padding-left: 0.8ex;
+	font-size: 80%;
+}
+.or > li:first-child:before {
+	content: " •";
+	padding-left: 3.9ex;
+}
+
+.or .and > li {
+	text-indent: -6.7ex;
+	padding-left: 5.2ex;
+}
+.and .or > li {
+	text-indent: -4.9ex;
+	padding-left: 4.2ex;
+}
+
+.or .and > li:first-child:before {
+	content: " •";
+	text-indent: -10ex;
+	padding-left: 9.1ex;
+}
+.or .and > li:first-child {
+	text-indent: -10ex;
+	padding-left: 5.2ex;
+}
+.and .or > li:first-child:before {
+	content: " •";
+}
+.and .or > li:first-child {
+	text-indent: -5ex;
+	padding-left: 4.4ex;
+}
